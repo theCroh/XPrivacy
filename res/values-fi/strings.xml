@@ -1,84 +1,84 @@
 <resources>
 
-    <string name="app_notenabled">XPrivacy ei ole enabloitu Xposed asennusohjelmassa</string>
-    <string name="app_wrongandroid">Vain Android versiolle 4.0.3+</string>
-    <string name="app_incompatible" formatted="false">XPrivacy is incompatible with %s</string>
+    <string name="app_notenabled">XPrivacy ei ole päällä Xposed-asennusohjelmassa</string>
+    <string name="app_wrongandroid">Vain Android-versioille 4.0.3+</string>
+    <string name="app_incompatible" formatted="false">XPrivacy ei ole yhteensopiva %s:n kanssa</string>
     <string name="app_version" formatted="false">XPrivacy versio: %s (%d)</string>
-    <string name="app_description">The ultimate privacy manager</string>
+    <string name="app_description">Äärimmäinen yksityisyyden hallinta</string>
     <string name="app_copyright">Tekijänoikeus \u00A9 2013–2014 M. Bokhorst (M66B)</string>
-    <string name="app_compatibility">Running in compatibility mode</string>
-    <string name="app_licensed">Licensed, thanks for your support!</string>
+    <string name="app_compatibility">Yhteensopivuustilassa</string>
+    <string name="app_licensed">Lisensoitu. Kiitos tuestasi!</string>
     <string name="menu_usage">Käyttötiedot</string>
     <string name="menu_refresh">Päivitä</string>
     <string name="menu_settings">Asetukset</string>
-    <string name="menu_template">Pohja</string>
-    <string name="menu_report">Raportoi asia</string>
+    <string name="menu_template">Asetuspohja</string>
+    <string name="menu_report">Raportoi ongelma</string>
     <string name="menu_export">Vie</string>
     <string name="menu_import">Tuo</string>
-    <string name="menu_submit">Aseta rajoitukset</string>
+    <string name="menu_submit">Lähetä rajoitukset</string>
     <string name="menu_fetch">Hae rajoitukset</string>
     <string name="menu_theme">Vaihda teema</string>
-    <string name="menu_pro">Pro versio</string>
+    <string name="menu_pro">Pro-versio</string>
     <string name="menu_about">Tietoja</string>
-    <string name="menu_help">Apua</string>
-    <string name="menu_select_all">Select all</string>
-    <string name="menu_sort">Sort</string>
-    <string name="menu_filter">Filter</string>
+    <string name="menu_help">Ohje</string>
+    <string name="menu_select_all">Valitse kaikki</string>
+    <string name="menu_sort">Järjestä</string>
+    <string name="menu_filter">Suodata</string>
     <string name="menu_all">Kaikki</string>
-    <string name="menu_toggle">Vaihda rajoitukset</string>
-    <string name="menu_clear_all">Clear all</string>
-    <string name="menu_clear_usage">Clear</string>
-    <string name="menu_clear_db">Clear all data</string>
+    <string name="menu_toggle">Vaihda rajoituksia</string>
+    <string name="menu_clear_all">Tyhjennä kaikki</string>
+    <string name="menu_clear_usage">Tyhjennä</string>
+    <string name="menu_clear_db">Poista Xprivacyn tiedot</string>
     <string name="menu_usage_all">Vaihda suodatin</string>
     <string name="menu_apply">Aseta pohja</string>
     <string name="menu_clear">Tyhjennä</string>
     <string name="menu_app_launch">Käynnistä</string>
-    <string name="menu_app_settings">Applikaation tarkemmat tiedot</string>
+    <string name="menu_app_settings">Sovelluksen tarkemmat tiedot</string>
     <string name="menu_app_store">Play Store</string>
     <string name="menu_app_kill">Kill</string>
     <string name="menu_accounts">Valitse sallittavat tilit</string>
     <string name="menu_applications">Valitse sallittavat applikaatiot</string>
     <string name="menu_contacts">Valitse sallittavat kontaktit</string>
-    <string name="menu_whitelists">Manage whitelists</string>
-    <string name="menu_tutorial">Tutorial</string>
-    <string name="menu_changelog">Changelog</string>
-    <string name="menu_flush">Flush cache</string>
-    <string name="menu_update">Check for updates</string>
-    <string name="menu_batch">Operations &#8230;</string>
-    <string name="menu_legend">Legend</string>
-    <string name="msg_abort">Aborting</string>
-    <string name="msg_aborted">Aborted</string>
+    <string name="menu_whitelists">Hallitse sallintalistoja</string>
+    <string name="menu_tutorial">Opetusohjelma</string>
+    <string name="menu_changelog">Muutosloki</string>
+    <string name="menu_flush">Tyhjennä välimuisti</string>
+    <string name="menu_update">Tarkista päivitykset</string>
+    <string name="menu_batch">Toimenpiteet &#8230;</string>
+    <string name="menu_legend">Ohje</string>
+    <string name="msg_abort">Peruutetaan</string>
+    <string name="msg_aborted">Peruutettu</string>
     <string name="msg_new">Uusi</string>
     <string name="msg_update">Päivitä</string>
     <string name="msg_loading">Lataa</string>
-    <string name="msg_applying">Applying</string>
-    <string name="msg_applied">Template applied</string>
-    <string name="msg_saved_to" formatted="false">Saved to %s</string>
-    <string name="msg_no_restrictions">No restrictions found</string>
+    <string name="msg_applying">Otetaan käyttöön</string>
+    <string name="msg_applied">Pohja asetettu</string>
+    <string name="msg_saved_to" formatted="false">Tallennettu kohteeseen %s</string>
+    <string name="msg_no_restrictions">Rajoituksia ei löytynyt</string>
     <string name="msg_sure">Oletko varma?</string>
-    <string name="msg_select">Please select some applications</string>
-    <string name="msg_limit">Please select fewer than %d applications</string>
+    <string name="msg_select">Valitse sovellukset</string>
+    <string name="msg_limit">Valitse vähemmän kuin %d sovellusta</string>
     <string name="msg_done">Valmis</string>
     <string name="msg_reboot">Laite on käynnistettävä uudelleen</string>
-    <string name="msg_random_now">Randomize now</string>
-    <string name="msg_random_access">Randomize on access</string>
-    <string name="msg_random_boot">Satunnaista uudelleenkäynnistyksen jälkeen</string>
-    <string name="msg_restart">Application restart required</string>
-    <string name="msg_register">Please register your device</string>
-    <string name="msg_email">Please enter your e-mail address:</string>
-    <string name="msg_registered">Check your e-mail to activate your device</string>
-    <string name="msg_service">Update service running</string>
-    <string name="msg_migrating" formatted="false">Migrating %s</string>
-    <string name="msg_randomizing" formatted="false">Randomizing %s</string>
-    <string name="msg_upgrading" formatted="false">Upgrading %s</string>
-    <string name="msg_support_info">An internal check failed, do you want to send the support info?</string>
-    <string name="msg_restrictedby">Restricted by XPrivacy</string>
-    <string name="msg_service_missing">Privacy service not found; did you enable XPrivacy in the Xposed installer and reboot your device?</string>
-    <string name="msg_service_version">Privacy service version mismatch; did you reboot your device after upgrading XPrivacy?</string>
-    <string name="msg_service_updating">Please wait until the update service has been completed</string>
+    <string name="msg_random_now">Arvo nyt</string>
+    <string name="msg_random_access">Arvo käytettäessä</string>
+    <string name="msg_random_boot">Arvo uudelleenkäynnistyksen jälkeen</string>
+    <string name="msg_restart">Sovelluksen uudelleenkäynnistys vaaditaan</string>
+    <string name="msg_register">Rekisteröi laitteesi</string>
+    <string name="msg_email">Syötä sähköpostiosoitteesi:</string>
+    <string name="msg_registered">Tarkista sähköpostisi aktivoidaksesi laitteesi</string>
+    <string name="msg_service">Päivityspalvelu käynnissä</string>
+    <string name="msg_migrating" formatted="false">Muutetaan %s</string>
+    <string name="msg_randomizing" formatted="false">Arvotaan %s</string>
+    <string name="msg_upgrading" formatted="false">Päivitetään %s</string>
+    <string name="msg_support_info">Sisäinen tarkistus epäonnistui. Haluatko lähettää tukitiedot?</string>
+    <string name="msg_restrictedby">XPrivacy esti pääsyn</string>
+    <string name="msg_service_missing">Palvelua ei löytynyt. Asetitko XPrivacy:n päälle Xposed-asennusohjelmassa ja käynnistit laitteen uudelleen?</string>
+    <string name="msg_service_version">Palvelun versio ei täsmää. Käynnistitkö laitteen uudelleen päivityksen jälkeen?</string>
+    <string name="msg_service_updating">Odota, kunnes päivityspalvelu on suoritettu loppuun</string>
     <string name="msg_expert">Expert users are supposed to solve their own problems where possible and to follow the XDA XPrivacy forum and help others where possible</string>
-    <string name="msg_method_expert">Function restrictions are meant for expert users. Are you an expert user?</string>
-    <string name="msg_longpress_whitelist">Long press function name to white or black list parameter</string>
+    <string name="msg_method_expert">Toimintorajoitukset on tarkoitettu vain kokeneille käyttäjille. Oletko kokenut käyttäjä?</string>
+    <string name="msg_longpress_whitelist">Paina toiminnon nimeä pitkää salliaksesi tai estääksesi parametrin</string>
     <string name="msg_settings_specific">Check marks and values take precedence over global check marks and values; empty check boxes and values do not take precedence</string>
     <string name="msg_first"><b>Xprivacy on tehty ja testattu huolellisesti, mutta on kuitenkin mahdotonta antaa takeita että se toimii virheettömästi kaikissa laitteissa ja jokaisessa applikaatiossa.
 \n\nKäyttö on täysin omalla vastuullasi.</b>\n\nKatso myös lisenssi:</string>
